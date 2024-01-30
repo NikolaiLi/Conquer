@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class hello : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
     #region Variables
     
