@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Death : MonoBehaviour
+public class SceneChange : MonoBehaviour
 {
     public float radius = 5;
     void Update() {
         Collider[] cols = Physics.OverlapSphere(transform.position, radius);
         foreach(Collider col in cols) {
             if(col.transform.gameObject.CompareTag("Player")) {
-                SceneManager.LoadScene("Space Scene");
+                SceneManager.LoadScene("Cutscene");
             }
         }
     }
