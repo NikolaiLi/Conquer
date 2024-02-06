@@ -4,7 +4,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private CharacterController controller;
-    private float speed = 5f;
+    private float speed = 20f;
 
     private void Start()
     {
