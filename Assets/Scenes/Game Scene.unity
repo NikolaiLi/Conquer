@@ -321,7 +321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52389368}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.47438598, y: 1e-45, z: -0, w: 0.880317}
+  m_LocalRotation: {x: 0.47438598, y: -1e-45, z: -0, w: 0.880317}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3115,7 +3115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a5ed66e8a23334ba1009bea1ddc77e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 20
+  countdownTime: 59
   countdownText: {fileID: 1462049638}
 --- !u!1001 &1485627532
 PrefabInstance:

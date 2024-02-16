@@ -14,7 +14,7 @@ public class Example : MonoBehaviour
         gameObjects = GameObject.FindGameObjectsWithTag("Building");
         if (gameObjects.Length == 0)
         {
-           SceneManager.LoadScene("Main Menu");
+           SceneManager.LoadScene("WinScreen");
         }
     }
 }
