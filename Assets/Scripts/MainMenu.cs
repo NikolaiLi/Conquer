@@ -18,4 +18,16 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Game Scene");
     }
+    public void PlayGame3()
+    {
+        SceneManager.LoadScene("LoseScreen");
+    }
+    public void PlayGame4()
+    {
+        SceneManager.LoadScene("WinScreen");
+    }
+    public void PlayGame5()
+    {
+        SceneManager.LoadScene("Map");
+    }
 }

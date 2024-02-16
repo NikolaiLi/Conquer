@@ -39,6 +39,6 @@ public class CountdownTimer : MonoBehaviour
     void ChangeScene()
     {
         // Change 'YourNextSceneName' to the name of your next scene
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("LoseScreen");
     }
 }
