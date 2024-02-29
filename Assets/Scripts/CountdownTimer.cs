@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float countdownTime = 120f; // Set your countdown time here
+    public float countdownTime = 10f; // Set your countdown time here
     private float currentTime;
     public Text countdownText;
 
